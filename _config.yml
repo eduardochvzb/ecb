@@ -54,14 +54,21 @@ defaults:
       share: true
       related: true
 comments:
-  provider: "facebook"
-  facebook:
-    num_posts: 5
-    colorscheme: "light"
+  provider: "disqus"
+  disqus:
+    shortname: "ecb-blog"
 twitter:
   username: "EduardoChvezBa1"
 facebook:
-  publisher: "https://www.facebook.com/ECB-103735254716592/ad_center/?refSource=pages_manager_bar"
+  publisher: "https://www.facebook.com/ECB-103735254716592/"
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/EduardoChvezBa1"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/eduardochvzb"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
