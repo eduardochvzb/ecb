@@ -1,0 +1,14 @@
+Eduardo Chávez:
+  name: "Eduardo Chávez"
+  bio: "Desarrollador Web."
+  avatar: "assets/images/chavez.jpg"
+  links:
+    - label: "Correo electrónico"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:eduardochvzb@gmail.com"
+    - label: "Sitio Web"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/eduardochvzb"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/EduardoChvezBa1"
