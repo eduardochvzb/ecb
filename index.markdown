@@ -3,4 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+excerpt: "Bienvenido a este tu blog de tecnología"
+header:
+    overlay_image: /assets/images/main-homepage.jpg
+    caption: "Creditos: Foto por Chris Ried en Unsplash"
+    overlay_filter: 0.5
 ---

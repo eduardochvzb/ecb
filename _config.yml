@@ -25,19 +25,33 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog oficial de Eduardo Chávez Barreto - Desarrollador Web. Guia en Javascript, CSS, HTML, Python, Flask, Express, Node, React, Svelte, Jquery, Django, Flask y mucho más.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: EduardoChvezBa1
-github_username: eduardochvzb
 
-permalink: /:categories/:title:output_ext
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categorias/:name/
+    tag: /etiquetas/:name/
 
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-archives
 minimal_mistakes_skin: "contrast"
 
 logo: "assets/images/swm-icon.svg"
-
+share: true
 search: true
 locale: "es-ES"
 breadcrumbs: true
