@@ -1,0 +1,5 @@
+main:
+  - title: "Categorías"
+    url : /categorias
+  - title: "Etiquetas"
+    url: /etiquetas

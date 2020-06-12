@@ -5,9 +5,9 @@
 @charset "utf-8";
 $link-color: #3F51B5;
 $masthead-link-color: #B5A33F;
-$serif      : 'Roboto Slab', serif;
-$sans-serif : 'Roboto', sans-serif;
-$monospace  : 'Roboto Mono', monospace;
+// $serif      : 'Roboto Slab', serif;
+// $sans-serif : 'Roboto', sans-serif;
+// $monospace  : 'Roboto Mono', monospace;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

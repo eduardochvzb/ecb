@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-excerpt: "Bienvenido a este tu blog de tecnología"
+excerpt: "Benditas sean las Ciencias de la Computación."
 header:
     overlay_image: /assets/images/main-homepage.jpg
     caption: "Creditos: Foto por Chris Ried en Unsplash"
